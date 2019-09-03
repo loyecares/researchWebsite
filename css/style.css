@@ -1,0 +1,186 @@
+* {
+  padding:0px;
+  margin: 0px;
+}
+.top{
+		background-color: #003312;
+	color:#fff;
+	text-align: center;
+	vertical-align: center;
+	margin-top: 15px;
+	padding: 5px;
+}
+.na{
+	border: 2px solid red;
+}
+.nan{
+	border: 2px solid blue;
+}
+.duvet {
+	background-color: #003312;
+	vertical-align: middle;
+	text-align: center;
+	color: #fff;
+	margin-top: 10px;
+}
+
+
+.accordable {
+  margin: 0;
+  padding: 0;
+}
+
+.accordable li:before {
+  content: '';
+  padding: 0;
+}
+
+.accordable .accordable-panel {
+  background-color: #f0f0f0;
+  margin-bottom: 5px;
+}
+
+.accordable .accordable-heading {
+  background-color: #45b29d;
+  color: #FFF;
+  padding: 10px 25px;
+}
+
+.container .accordable .accordable-expander {
+  padding: 0 25px;
+}
+
+
+
+ select, textarea {
+  width: 70%;
+  padding: 8px;
+  border: 1px solid #003312;;
+  border-radius: 4px;
+  resize: vertical;
+}
+
+label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+.reg{
+	margin-top: 7px;
+}
+.responsive{
+	width: 100%;
+
+}
+input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  width: 40%;
+  text-align: center;
+}
+footer{
+	padding: 50px;
+	background-color: #4CAF50;
+	color: #fff;
+	text-align: center;
+	margin-top: 10px;
+}
+footer p:first-of-type{
+	text-transform: uppercase;
+
+}
+input[type=submit]:hover {
+  background-color: #45a049;
+}
+
+.main{
+	margin-bottom: 30px;
+}
+
+
+
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+.allowance{
+	  float: left;
+  width: 25%;
+  margin-top: 6px;
+
+}
+
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.main{
+	padding-top: 30px;
+}
+
+input{
+	width: 50%;
+	border-radius: 10px;
+	padding: 4px;
+	border: 1px solid #003312;
+}
+
+input[type=text]{
+	width: 70%;
+	border-radius: 10px;
+	padding: 4px;
+	border: 1px solid #003312;
+}
+input[type=checkbox]{
+	width: 5%;
+}
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .col-25, .col-75, input[type=submit] {
+    width: 100%;
+    margin-top: 0;
+  }
+  .main{
+  	text-align: center;
+  }
+
+ input[type=text]{
+	width: 70%;
+
+}
+
+input{
+	width: 70%;
+	border-radius: 10px;
+	padding: 4px;
+}
+}
+
+svg#definition {
+  display: none;
+}
+
+.icon {
+  width: 0.5em;
+  height: 0.5em;
+  fill: red;
+  vertical-align: top;
+}
+
+.col-25:after { content:" *";
+    color: #e32;}
+
